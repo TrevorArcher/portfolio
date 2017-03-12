@@ -6,14 +6,14 @@ header {
   height: 100vh;
   width: 100%;
   background: linear-gradient(rgba(255, 255, 255, 0.4), transparent), url(../../images/desk2.jpeg) no-repeat fixed center top;
-  background-size: cover; }
+  background-size: cover;
+  overflow: hidden; }
 
 .title {
-  display: flex;
+  display: inline-flex;
   height: 100vh;
   flex-direction: column;
-  justify-content: space-between;
-  overflow-y: hidden; }
+  justify-content: space-between; }
   .title .greet {
     color: #fff;
     font-family: "Work Sans", Helvetica, Arial, sans-serif;
@@ -21,5 +21,39 @@ header {
     font-weight: 100;
     line-height: .71;
     text-align: left; }
+
+.nav-container {
+  float: right;
+  height: 100vh;
+  width: 150px;
+  margin-right: -100px; }
+  .nav-container .nav-menu {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around; }
+    .nav-container .nav-menu a {
+      color: #eee;
+      text-decoration: none; }
+    .nav-container .nav-menu .nav-item {
+      transition-duration: 0.3s;
+      font-family: "Work Sans", Helvetica, Arial, sans-serif;
+      line-height: 1;
+      width: 250px;
+      padding: auto;
+      border-radius: 2px; }
+      .nav-container .nav-menu .nav-item:hover {
+        transform: translateX(-125px);
+        transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+        background-color: rgba(162, 177, 112, 0.6); }
+      .nav-container .nav-menu .nav-item i {
+        display: inline-block;
+        font-size: 30px;
+        margin: 10px; }
+      .nav-container .nav-menu .nav-item .fa-user {
+        margin-left: 15px; }
+      .nav-container .nav-menu .nav-item p {
+        display: inline-block;
+        font-size: 1.5em; }
 
 /*# sourceMappingURL=main.css.map */
