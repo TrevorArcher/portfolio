@@ -16,10 +16,11 @@ header {
   justify-content: space-between;
   overflow-y: hidden;
   .greet {
-    font-family: 'Work Sans', Helvetica, sans-serif;
     color: #fff;
+    font-family: $font-stack;
     font-size: 25vh;
-    line-height: .75;
+    font-weight: 100;
+    line-height: .71;
     text-align: left;
   }
 }
