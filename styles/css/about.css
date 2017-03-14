@@ -1,3 +1,12 @@
+* {
+  box-sizing: border-box;
+  margin: 0; }
 
+header {
+  background: linear-gradient(rgba(125, 125, 125, 0.4), transparent), url(../../images/dude.jpg) no-repeat fixed center top;
+  background-size: cover; }
+
+.nav-container .nav-menu .nav-item:hover {
+  background-color: rgba(46, 62, 95, 0.6); }
 
 /*# sourceMappingURL=about.css.map */
