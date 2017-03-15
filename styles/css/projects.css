@@ -1,3 +1,12 @@
+* {
+  box-sizing: border-box;
+  margin: 0; }
 
+header {
+  background: linear-gradient(rgba(255, 255, 255, 0.4), transparent), url(../../images/work-it.jpeg) no-repeat fixed center top;
+  background-size: cover; }
+
+.nav-container .nav-menu .nav-item:hover {
+  background-color: rgba(106, 149, 129, 0.6); }
 
 /*# sourceMappingURL=projects.css.map */

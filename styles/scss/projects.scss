@@ -1,0 +1,20 @@
+@import '_utilities';
+
+header {
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0)),
+    url(../../images/work-it.jpeg) no-repeat fixed center top;
+  background-size: cover;
+}
+
+.nav-container {
+  .nav-menu {
+    a {
+    }
+    .nav-item {
+      &:hover {
+        background-color: rgba(106,149,129,.6);
+        // background-color: rgba(213,176,61,.6);
+      }
+    }
+  }
+}

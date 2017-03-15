@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAEA,CAAE;EACA,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;;ACFX,MAAO;EACL,UAAU,EAAE,iHAC+C;EAC3D,eAAe,EAAE,KAAK;;AAQlB,wCAAQ;EACN,gBAAgB,EAAE,wBAAoB",
+"sources": ["../scss/_utilities.scss","../scss/projects.scss"],
 "names": [],
 "file": "projects.css"
 }
