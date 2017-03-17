@@ -1,0 +1,19 @@
+@import '_utilities';
+
+header {
+  background: linear-gradient(rgba(255, 255, 255, .4), rgba(0, 0, 0, 0)),
+    url(../../images/contact.jpeg) no-repeat fixed center top;
+  background-size: cover;
+}
+
+.nav-container {
+  .nav-menu {
+    a {
+    }
+    .nav-item {
+      &:hover {
+        background-color: rgba(237,58,114,.4);
+      }
+    }
+  }
+}
