@@ -1,9 +1,12 @@
 @import '_utilities';
 
 header {
+  height: 100vh;
+  width: 100%;
   background: linear-gradient(rgba(125, 125, 125, 0.4), rgba(0, 0, 0, 0)),
-    url(../../images/dude.jpg) no-repeat fixed center top;
+    url(../../images/dude-tiny.jpg) no-repeat fixed center top;
   background-size: cover;
+  overflow-x: hidden;
 }
 
 .nav-container {
