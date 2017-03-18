@@ -72,7 +72,7 @@ header {
   width: 100%;
   background: linear-gradient(rgba(255, 255, 255, 0.4), transparent), url(../../images/desk2-tiny.jpeg) no-repeat fixed center top;
   background-size: cover;
-  overflow-x: hidden; }
+  overflow: hidden; }
 
 .nav-container .nav-menu .nav-item:hover {
   background-color: rgba(162, 177, 112, 0.6); }
