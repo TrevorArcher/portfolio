@@ -2,6 +2,9 @@
   box-sizing: border-box;
   margin: 0; }
 
+h1 {
+  margin: 0; }
+
 .title {
   display: inline-flex;
   height: 100vh;
@@ -76,5 +79,27 @@ header {
 
 .nav-container .nav-menu .nav-item:hover {
   background-color: rgba(46, 62, 95, 0.6); }
+
+.main-content {
+  text-align: center;
+  width: 100%;
+  background-color: rgba(46, 62, 95, 0.6);
+  padding: 2rem 0; }
+
+#profile-image {
+  border-radius: 50%;
+  max-width: 150px; }
+
+hr {
+  width: 10rem;
+  margin: 0 auto 2rem; }
+
+.introduction {
+  font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+  color: #eee;
+  padding: 0 20%; }
+  .introduction h2 {
+    font-size: 3em;
+    font-weight: 100; }
 
 /*# sourceMappingURL=about.css.map */

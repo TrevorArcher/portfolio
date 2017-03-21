@@ -2,6 +2,9 @@
   box-sizing: border-box;
   margin: 0; }
 
+h1 {
+  margin: 0; }
+
 .title {
   display: inline-flex;
   height: 100vh;
@@ -76,5 +79,42 @@ header {
 
 .nav-container .nav-menu .nav-item:hover {
   background-color: rgba(237, 58, 114, 0.4); }
+
+.main-content {
+  text-align: center;
+  width: 100%;
+  background-color: rgba(134, 0, 66, 0.8);
+  padding: 2rem 0;
+  font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+  color: #eee; }
+  .main-content h2 {
+    font-size: 3em;
+    font-weight: 100; }
+
+hr {
+  width: 10rem;
+  margin: 0 auto 2rem; }
+
+::-webkit-input-placeholder {
+  font-style: italic; }
+
+fieldset {
+  border: none; }
+
+fieldset * {
+  width: 30%;
+  min-width: 15rem;
+  font-family: inherit;
+  border-radius: 2px;
+  padding: 0.25rem 0.5rem;
+  border: 2px solid transparent;
+  margin: 0.5rem; }
+  fieldset *:focus {
+    box-shadow: inset -2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.2s; }
+    fieldset *:focus::-webkit-input-placeholder {
+      color: transparent; }
+  fieldset *:last-child {
+    font-style: normal; }
 
 /*# sourceMappingURL=contact.css.map */

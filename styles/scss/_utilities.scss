@@ -8,6 +8,10 @@ $nav-fonts: 'Century Gothic', Helvetica, Arial, sans-serif;
 
 //universal header styles
 
+h1 {
+  margin: 0;
+}
+
 .title {
   display: inline-flex;
   height: 100vh;

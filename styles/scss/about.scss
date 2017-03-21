@@ -20,3 +20,32 @@ header {
     }
   }
 }
+
+//content
+
+.main-content {
+  text-align: center;
+  width: 100%;
+  background-color: rgba(46, 62, 95, 0.6);
+  padding: 2rem 0;
+}
+
+#profile-image {
+  border-radius: 50%;
+  max-width: 150px;
+}
+
+hr {
+  width: 10rem;
+  margin: 0 auto 2rem;
+}
+
+.introduction {
+  font-family: $nav-fonts;
+  color: #eee;
+  padding: 0 20%;
+  h2 {
+    font-size: 3em;
+    font-weight: 100;
+  }
+}
