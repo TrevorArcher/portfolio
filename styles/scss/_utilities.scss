@@ -1,4 +1,5 @@
-$font-stack: 'Work Sans', Helvetica, Arial, sans-serif;
+$title-fonts: 'Work Sans', Helvetica, Arial, sans-serif;
+$nav-fonts: 'Century Gothic', Helvetica, Arial, sans-serif;
 
 * {
   box-sizing: border-box;
@@ -14,7 +15,7 @@ $font-stack: 'Work Sans', Helvetica, Arial, sans-serif;
   justify-content: space-between;
   .greet {
     color: #fff;
-    font-family: $font-stack;
+    font-family: $title-fonts;
     font-size: 25vh;
     font-weight: 100;
     line-height: .71;
@@ -38,7 +39,7 @@ $font-stack: 'Work Sans', Helvetica, Arial, sans-serif;
     }
     .nav-item {
       transition-duration: 0.3s;
-      font-family: $font-stack;
+      font-family: $nav-fonts;
       line-height: 1;
       width: 250px;
       padding: auto;
