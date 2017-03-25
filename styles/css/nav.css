@@ -8,8 +8,10 @@ h1 {
 .title {
   display: inline-flex;
   height: 100vh;
+  width: 100%;
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: space-between;
+  overflow: hidden; }
   .title .greet {
     color: #fff;
     font-family: "Work Sans", Helvetica, Arial, sans-serif;
@@ -19,7 +21,9 @@ h1 {
     text-align: left; }
 
 .nav-container {
-  float: right;
+  position: fixed;
+  right: 0;
+  top: 0;
   height: 100vh;
   width: 150px;
   margin-right: -100px; }

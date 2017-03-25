@@ -20,3 +20,163 @@ header {
     }
   }
 }
+
+hr {
+  width: 10rem;
+  margin: 0 auto 2rem;
+}
+
+//about section
+
+#about {
+  background: linear-gradient(rgba(125, 125, 125, 0.4), rgba(0, 0, 0, 0)),
+    url(../../images/dude-tiny.jpg) no-repeat fixed center top;
+  background-size: cover;
+}
+
+.about-content {
+  text-align: center;
+  width: 100%;
+  background-color: rgba(46, 62, 95, 0.6);
+  padding: 2rem 0;
+}
+
+#profile-image {
+  border-radius: 50%;
+  max-width: 150px;
+}
+
+
+.introduction {
+  font-family: $nav-fonts;
+  color: #eee;
+  padding: 0 20%;
+  h2 {
+    font-size: 3em;
+    font-weight: 100;
+  }
+}
+
+//projects section
+
+#projects {
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0)),
+    url(../../images/work-it-tiny.jpeg) no-repeat fixed center top;
+  background-size: cover;
+}
+
+.projects-content {
+  text-align: center;
+  width: 100%;
+  background-color: rgba(224, 182, 70, 0.8);
+  padding: 2rem 0;
+  font-family: $nav-fonts;
+  color: #eee;
+  h2 {
+    font-size: 3em;
+    font-weight: 100;
+  }
+  h3 {
+    margin-bottom: .5em;
+  }
+}
+
+//project list
+
+.projects {
+  width: 100%;
+  margin: 0 auto;
+  h2 {
+    color: #555;
+  }
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  div {
+    position: relative;
+    max-width: 20em;
+    min-width: 200px;
+    margin: 1rem auto;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    img {
+      max-width: 100%;
+      vertical-align: bottom;
+    }
+  }
+}
+
+.project-overlay {
+  position: absolute;
+  color: transparent;
+  font-size: 125%;
+  text-align: center;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  padding: .25em;
+  p {
+    color: inherit;
+  }
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #eee;
+    transition-duration: 0.4s;
+  }
+}
+
+//contact section
+
+#contact {
+  background: linear-gradient(rgba(255, 255, 255, .4), rgba(0, 0, 0, 0)),
+    url(../../images/contact-tiny.jpeg) no-repeat fixed center top;
+  background-size: cover;
+}
+
+.contact-content {
+  text-align: center;
+  width: 100%;
+  background-color: rgba(134, 0, 66, .8);
+  padding: 2rem 0;
+  font-family: $nav-fonts;
+  color: #eee;
+  h2 {
+    font-size: 3em;
+    font-weight: 100;
+  }
+}
+
+//contact form
+
+::-webkit-input-placeholder {
+   font-style: italic;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset * {
+  width: 30%;
+  min-width: 15rem;
+  font-family: inherit;
+  border-radius: 2px;
+  padding: 0.25rem 0.5rem;
+  border: 2px solid transparent;
+  margin: 0.5rem;
+  &:focus {
+    box-shadow: inset -2px 2px 10px rgba(0,0,0,.2);
+    transition-duration: 0.2s;
+    &::-webkit-input-placeholder {
+      color: transparent;
+    }
+  }
+  &:last-child {
+    font-style: normal;
+  }
+}
