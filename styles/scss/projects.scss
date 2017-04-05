@@ -27,10 +27,10 @@ header {
 .main-content {
   text-align: center;
   width: 100%;
-  background-color: rgba(224, 182, 70, 0.8);
+  background-color: rgb(235, 216, 171);
   padding: 2rem 0;
   font-family: $nav-fonts;
-  color: #eee;
+  color: #555;
   h2 {
     font-size: 3em;
     font-weight: 100;
@@ -83,7 +83,7 @@ hr {
   right: 0;
   width: 100%;
   height: 100%;
-  padding: .25em;
+  padding: .4em;
   p {
     color: inherit;
   }
