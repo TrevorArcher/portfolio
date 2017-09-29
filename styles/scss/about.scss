@@ -37,10 +37,10 @@ header {
 
 hr {
   width: 10rem;
-  margin: 0 auto 2rem;
+  margin: 0 auto 1.5rem;
 }
 
-.introduction {
+.introduction, .resume-section {
   font-family: $nav-fonts;
   color: #eee;
   padding: 0 20%;
@@ -48,4 +48,36 @@ hr {
     font-size: 3em;
     font-weight: 100;
   }
+  h3 {
+    font-size: 1.75em;
+    font-weight: 100;
+  }
+  h4 {
+    font-size: 1.25em;
+    font-weight: 100;
+  }
+  .exposition {
+    margin: 1.5rem 0;
+  }
+}
+
+//resume
+
+.resume-section {
+  text-align: left;
+  margin: 1rem;
+}
+
+.skill-titles, .skill-list {
+  margin: .5rem;
+  li {
+    margin: .25rem;
+    &:before {
+      content:"\25BF \0020"
+    }
+  }
+}
+
+.skill-list {
+  list-style-type: none;
 }

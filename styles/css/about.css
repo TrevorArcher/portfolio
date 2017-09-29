@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   margin: 0; }
@@ -97,14 +98,36 @@ header {
 
 hr {
   width: 10rem;
-  margin: 0 auto 2rem; }
+  margin: 0 auto 1.5rem; }
 
-.introduction {
+.introduction, .resume-section {
   font-family: "Century Gothic", Helvetica, Arial, sans-serif;
   color: #eee;
   padding: 0 20%; }
-  .introduction h2 {
+  .introduction h2, .resume-section h2 {
     font-size: 3em;
     font-weight: 100; }
+  .introduction h3, .resume-section h3 {
+    font-size: 1.75em;
+    font-weight: 100; }
+  .introduction h4, .resume-section h4 {
+    font-size: 1.25em;
+    font-weight: 100; }
+  .introduction .exposition, .resume-section .exposition {
+    margin: 1.5rem 0; }
+
+.resume-section {
+  text-align: left;
+  margin: 1rem; }
+
+.skill-titles, .skill-list {
+  margin: .5rem; }
+  .skill-titles li, .skill-list li {
+    margin: .25rem; }
+    .skill-titles li:before, .skill-list li:before {
+      content: "▿ "; }
+
+.skill-list {
+  list-style-type: none; }
 
 /*# sourceMappingURL=about.css.map */
