@@ -6,6 +6,19 @@
 h1 {
   margin: 0; }
 
+#mobile {
+  display: none;
+  background-color: #efefef;
+  height: 100vh;
+  width: 100vw;
+  padding: 30vh 10% 0;
+  text-align: center; }
+  #mobile h1 {
+    font-family: "Work Sans", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    font-size: 3rem;
+    color: #777; }
+
 .title {
   display: inline-flex;
   height: 100vh;
@@ -76,6 +89,15 @@ h1 {
     animation-name: down-scroll;
     animation-duration: .3s; }
 
+@media only screen and (max-width: 860px) {
+  body {
+    overflow: hidden; }
+
+  #mobile {
+    display: block; }
+
+  .scroll {
+    display: none; } }
 header {
   height: 100vh;
   width: 100%;
